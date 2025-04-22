@@ -5,6 +5,7 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="icon" type="image/x-icon" href=assets/favicon.ico">
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="is-preload">
@@ -16,7 +17,6 @@
 					<ul>
 						<li><a href="#intro">Portfolio</a></li>
 						<li><a href="#work">Projects</a></li>
-						<li><a href="#one">Education</a></li>
 						<li><a href="#contact">Contact</a></li>
 					</ul>
 				</nav>
@@ -42,7 +42,7 @@
 
 	
 		<!-- Work -->
-			<section id="work" class="main style3 primary">
+			<section id="work" class="main style3 primary fullscreen">
 				<div class="content">
 					<header>
 						<h2>My Projects</h2>
@@ -74,11 +74,11 @@
 							</article>
 							-->
 						</div>
-
+						<a href="#contact" class="button style2 down anchored">Next</a>
 				</div>
-
+			
 			</section>
-				<!-- One -->
+				<!-- One --><!--
 				<section id="one" class="main style2 right dark fullscreen">
 					<div class="content box style2">
 						<header>
@@ -88,7 +88,7 @@
 					</div>
 					<a href="#two" class="button style2 down anchored">Next</a>
 				</section>
-	
+			-->
 	
 
 		<!-- Contact -->
@@ -96,10 +96,11 @@
 				<div class="content">
 					<header>
 						<h2>Say Hello.</h2>
-						<p>Lorem ipsum dolor sit amet et sapien sed elementum egestas dolore condimentum.</p>
+						<p>This doesnt really do anything but it looks cool</p>
 					</header>
 					<div class="box">
-						<form method="post" action="#">
+						<form  action="https://api.web3forms.com/submit" method="POST" action="#">
+							<input type="hidden" name="access_key" value="d042a4af-8456-4153-91ed-8aa47a8ba4db">
 							<div class="fields">
 								<div class="field half"><input type="text" name="name" placeholder="Name" /></div>
 								<div class="field half"><input type="email" name="email" placeholder="Email" /></div>
