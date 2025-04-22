@@ -2389,4 +2389,9 @@ input, select, textarea {
 			font-weight: 100;
 			letter-spacing: 2px;
 		}
+		.embedded{
+			display: flex;
+			justify-content: center;
+			flex-wrap: wrap;
+		}
 		
