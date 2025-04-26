@@ -2391,7 +2391,17 @@ input, select, textarea {
 		}
 		.embedded{
 			display: flex;
+			flex-direction: column;
 			justify-content: center;
+			align-items: center;
 			flex-wrap: wrap;
+			width: 100%;
+		}
+		.content{
+			text-align: center;
+			width: 100%;
+		}
+		.title{
+			width: 360px;
 		}
 		
